@@ -1,0 +1,44 @@
+body{
+    font-family: 'Tilt Neon', cursive;
+    margin: auto;
+    padding:0;
+
+}
+.container{
+    max-width: 100%;
+    height:800px;
+    background-color: grey;
+}
+.menuv{
+    background-color: rgb(32, 31, 31);
+    height:780px;
+    width:250px;
+    padding-top: 10px;
+    float: left;
+}
+li{
+    padding:15px;
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+    color:lavender;
+    list-style: none;  
+    padding:10px;
+    display: block;
+}
+a:hover{
+    background-color: rgb(80, 77, 77);
+    list-style: none;
+    display: block;
+    transition: .5s;
+    border-bottom: lawngreen solid 2px;
+    border-left: lawngreen solid 2px;
+}
+.principal{
+    float:left;
+    width:740px;
+    color:lightcyan;
+    margin-left:10px;
+}
+
